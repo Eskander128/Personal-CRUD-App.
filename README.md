@@ -1,6 +1,3 @@
-# Personal-CRUD-App.
-A professional Dev Blog application built with Vanilla JavaScript, featuring full CRUD functionality, LocalStorage persistence, and a responsive dark-themed UI.
-
 🚀 My Dev Blog (CRUD Project)
 A professional web application for managing blog posts, built with a focus on clean code and great design.
 
