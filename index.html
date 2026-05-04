@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a onclick="showPage('home-page')">Home</a>
+        <a onclick="showPage('about-page')">About</a>
+    </nav>
+    <div id="home-page">
+    <div class="input-section">
+    <input id="post-title" placeholder="Title">
+    <textarea  id="post-body" placeholder="description"></textarea>
+    <button id="add-btn">Post</button>
+    </div>
+    <hr>
+    <input id="search-input" placeholder="Search...">
+    <div id="container"></div>
+    </div>
+    <div id="about-page" style="display: none">
+        <h2>About This Blog</h2>
+        <p>"I’m a Junior Software Developer with a deep passion for bringing digital ideas to life through clean, efficient code and striking visuals. While I speak JavaScript, my heart beats in CSS. I specialize in creating user interfaces that aren't just functional, but also beautiful and engaging. I believe that a great developer is a bridge between complex logic and seamless user experience."</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>  
